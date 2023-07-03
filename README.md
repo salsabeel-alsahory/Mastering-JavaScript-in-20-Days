@@ -35,3 +35,5 @@ In this challenge, I will be enhancing my JavaScript skills and knowledge over t
 3. Summarize your daily learning and document your challenge solutions on a separate readme page.
 4. Repeat this process for the next 20 days, gradually advancing your JavaScript skills.
 
+## Folder Structure
+- [Day 1]()
