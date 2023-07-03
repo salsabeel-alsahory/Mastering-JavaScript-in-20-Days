@@ -17,7 +17,7 @@ In this challenge, I will be enhancing my JavaScript skills and knowledge over t
 
 ## Coding Challenges
 - [First Challenge]()
-- [Second Challenge]
+- [Second Challenge]()
 - [Third Challenge]()
 - [Forth Challenge]()
 - [Fifth Challenge]()
