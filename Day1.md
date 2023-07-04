@@ -64,7 +64,9 @@ console.log(division); // Output: 2
 console.log(y == s); // true because it just compares the value, not the type 
 console.log(y === s); // false because it compares the value and the type of the argument 
 
-## Coding Examples
+---
+
+### Coding Examples
 
 ### [Compound Assignment With Augmented Multiplication](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication)
 **My Solution**
