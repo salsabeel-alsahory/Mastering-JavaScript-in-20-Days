@@ -63,8 +63,7 @@ console.log(multiplication); // Output: 18
 console.log(division); // Output: 2
 console.log(y == s); // true because it just compares the value, not the type 
 console.log(y === s); // false because it compares the value and the type of the argument 
-
----
+```
 
 ### Coding Examples
 
@@ -80,14 +79,14 @@ let c = 4.6;
 a *= 5;
 b *= 3;
 c *= 10;
-
+```
 ### [Concatenating Strings with the Plus Equals Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-the-plus-equals-operator)
 **My Solution**
 
 ```javascript
 let myStr = "This is the first sentence. ";
 myStr += "This is the second sentence.";
-
+```
 ### [Use Bracket Notation to Find the Nth-to-Last Character in a String](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-to-last-character-in-a-string)
 **My Solution**
 
