@@ -18,7 +18,7 @@ In this challenge, I will be enhancing my JavaScript skills and knowledge over t
 ## Coding Challenges
 - [First Challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication)
 - [Second Challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-the-plus-equals-operator)
-- [Third Challenge]()
+- [Third Challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-to-last-character-in-a-string)
 - [Forth Challenge]()
 - [Fifth Challenge]()
 - [Six Challenge]()
