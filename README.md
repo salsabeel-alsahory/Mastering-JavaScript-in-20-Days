@@ -43,3 +43,7 @@ In this challenge, I will be enhancing my JavaScript skills and knowledge over t
 
 ## Folder Structure
 - [Day 1](https://github.com/salsabeel-alsahory/Mastering-JavaScript-in-20-Days/blob/main/Day1.md)
+- [Day 2](https://github.com/salsabeel-alsahory/Mastering-JavaScript-in-20-Days/blob/main/Day2.md)
+- [Day 3](https://github.com/salsabeel-alsahory/Mastering-JavaScript-in-20-Days/blob/main/Day3.md)
+- [Day 4](https://github.com/salsabeel-alsahory/Mastering-JavaScript-in-20-Days/blob/main/Day4.md)
+- [Day 5](https://github.com/salsabeel-alsahory/Mastering-JavaScript-in-20-Days/blob/main/Day5.md)
