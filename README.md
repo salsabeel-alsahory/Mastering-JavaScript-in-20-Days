@@ -16,7 +16,7 @@ In this challenge, I will be enhancing my JavaScript skills and knowledge over t
 - [Deep JavaScript Foundations, v3](https://frontendmasters.com/courses/deep-javascript-v3/)
 
 ## Coding Challenges
-- [First Challenge]()
+- [First Challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication)
 - [Second Challenge]()
 - [Third Challenge]()
 - [Forth Challenge]()
