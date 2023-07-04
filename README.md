@@ -36,4 +36,4 @@ In this challenge, I will be enhancing my JavaScript skills and knowledge over t
 4. Repeat this process for the next 20 days, gradually advancing your JavaScript skills.
 
 ## Folder Structure
-- [Day 1](https://github.com/salsabeel-alsahory/Mastering-JavaScript-in-20-Days/blob/main/Day%201)
+- [Day 1](https://github.com/salsabeel-alsahory/Mastering-JavaScript-in-20-Days/blob/main/Day1.md)
