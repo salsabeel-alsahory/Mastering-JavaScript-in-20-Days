@@ -6,11 +6,13 @@ This README file provides a summary of the JavaScript lessons on Functions, Arro
 Functions are a way to organize and reuse blocks of code. We can declare a function with a name and define its behavior inside curly braces. Functions can take inputs called parameters, which act as placeholders for values we provide when calling the function. The actual values we pass to the function are called arguments. Functions can also produce an output value using the return statement.
 
 ```javascript
-function add3(x, y, z) { // x, y, z are parameters
+// x, y and z  parameters
+function add3(x, y, z) { 
   console.log("My parameters are named x, y, z");
   console.log("I received the arguments", x, y, z);
   return x + y + z;
 }
+//put when we pass numbers like 1,2,3,4 this is an argument  
 ```
 ### Lesson 2: Arrow Function
 Arrow functions provide a concise syntax for creating unnamed functions. Instead of using the function keyword, we use the arrow (=>) to define the function. They are useful when we want to write shorter, more readable code. Arrow functions can be assigned to variables, making them handy for callbacks and function expressions.
