@@ -243,6 +243,7 @@ As I concluded my learning journey, I reviewed the key concepts and techniques c
 ### [Build a Rick & Morty Characters List](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week1-day3-task/task.md)
 #### My solution 
 ```javascript
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -256,6 +257,9 @@ As I concluded my learning journey, I reviewed the key concepts and techniques c
   <script src="./script.js"></script>
 </body>
 </html>
+
+//javascript code ------------------------------------------------
+
 document.addEventListener('DOMContentLoaded', () => {
   async function fetchCharacterData() {
     try {
@@ -292,7 +296,7 @@ const characterList = document.getElementById('characterList');
     });
 });
 
-//css code
+//css code--------------------------------------------------------
 #characterList {
   list-style: none;
   padding: 0;
