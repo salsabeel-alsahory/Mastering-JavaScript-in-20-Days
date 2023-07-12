@@ -64,6 +64,52 @@ console.log(urlSlug("Winter Is Coming") );
 ### [Exircise for Functions and Callbacks](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week2-day1-tasks/tasks.md)
 #### My solution 
 ```javascript
+function mapAsync(array, mapInstruction) {
+    return new Promise(async (resolve, reject) => {
+      try {
+        const result = [];
+        for (let i = 0; i < array.length; i++) {
+            // pauses the execution of the loop until the promise returned by mapInstruction is resolved
+          const mappedValue = await mapInstruction(array[i]);
+          result.push(mappedValue);
+        }
+        resolve(result);
+      } catch (error) {
+        reject(error);
+      }
+    });
+  }
+  function multiplyByTwo(number) {
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        resolve(number * 2); // Multiply the number by 2
+      }, 1000); // Simulating an asynchronous operation
+    });
+  }
+  
+  mapAsync([1, 2, 3, 4], multiplyByTwo)
+    .then((result) => {
+      console.log(result); // [2, 4, 6, 8]
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+
+
+//Write a JavaScript function called sumRange that calculates the sum of all integers in
+//  a given range. The function should use recursion to handle the calculation and demonstrate 
+// understanding of the call stack.
+function sumRange (from,to){
+    
+        if (from > to) {
+          return 0; 
+        } else {
+          return from + sumRange(from + 1, to); 
+        }
+  
+}
+console.log(sumRange(1, 10)); // Output: 55
+
 ```
 
 
