@@ -16,12 +16,45 @@ This README file summarizes the concept of closure, nested functions, memory man
 ### [Learning sprint (1), week (2), day (2) delieverables](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week2-day2-tasks/tasks.md)
 #### Question 1:
 ```javascript
+function createCounter(initialValue) {
+  let counter = initialValue;
+
+  function incrementCounter() {
+    counter++;
+    return counter;
+  }
+
+  return incrementCounter;
+}
+
+console.log(createCounter(2)()); // Output: 3
+
 ```
 #### Question 2:
 ```javascript
+function calculateAverage(numbers) {
+  return function() {
+    const sum = numbers.reduce((acc, num) => acc + num, 0);
+    const count = numbers.length;
+    const result = sum / count;
+    return result;
+  };
+}
+
+console.log(calculateAverage([1, 2, 3])); // Output: 2
+
 ```
 #### Question 3:
 ```javascript
+function powerOf(baseNum) {
+  function power(exp) {
+    return Math.pow(baseNum, exp);
+  }
+  return power;
+}
+
+console.log(powerOf(2)(3)); // Output: 8
+
 ```
 #### Question 4:
 ```javascript
