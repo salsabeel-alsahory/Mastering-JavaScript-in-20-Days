@@ -1,4 +1,4 @@
-# Day 1: Closure
+# Day 2: Closure
 
 This README file summarizes the concept of closure, nested functions, memory management, and closure function scope.
 
