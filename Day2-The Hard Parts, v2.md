@@ -56,6 +56,24 @@ function powerOf(baseNum) {
 console.log(powerOf(2)(3)); // Output: 8
 
 ```
-#### Question 4:
+#### Question 4: 
+[example of this quastion ](https://medium.com/javascript-scene/curry-and-function-composition-2c208d774983)
 ```javascript
+function compose(...functions) {
+  function functionsCompose(argument) {
+    return functions.reduceRight((output, func) => func(output), argument);
+  }
+  return functionsCompose;
+}
+
+function divide(x, y) {
+  return x / y;
+}
+
+function multiply(x, y) {
+  return x * y;
+}
+
+console.log(compose(divide, multiply)(6, 2));
+
 ```
