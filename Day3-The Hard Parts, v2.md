@@ -15,7 +15,7 @@ Asynchronous programming in JavaScript allows for non-blocking execution of task
 - Promises provide a cleaner and more readable way to handle asynchronous code compared to traditional callback-based approaches.
   ## Coding Exercises:
 ### [Learning sprint (1), week (2), day (3) delieverables](https://github.com/orjwan-alrajaby/gsg-expressjs-backend-training-2023/blob/main/learning-sprint-1/week2-day3-tasks/tasks.md)
-
+#### Question 1:
 ```javascript
 
 const task1 = (cb) => setTimeout(() => {
@@ -71,4 +71,42 @@ const callback = (messages) => {
 executeInSequenceWithCBs(asyncTasks, callback);
 
 ```
-#### [Question 2:]
+#### Question 2:
+```javascript
+const executeInParallelWithPromises = (apis) => {
+  const promises = apis.map(api => fetch(api.apiUrl)
+    .then(response => response.json())
+    .then(data => ({
+      apiName: api.apiName,
+      apiUrl: api.apiUrl,
+      apiData: data
+    }))
+  );
+
+  return Promise.all(promises);
+};
+```
+
+#### Question 3:
+```javascript
+const executeInSequenceWithPromises = (apis) => {
+  let promiseChain = Promise.resolve();
+  const results = [];
+
+  apis.forEach(api => {
+    promiseChain = promiseChain
+      .then(() => fetch(api.apiUrl))
+      .then(response => response.json())
+      .then(data => {
+        results.push({
+          apiName: api.apiName,
+          apiUrl: api.apiUrl,
+          apiData: data
+        });
+      });
+  });
+
+  return promiseChain.then(() => results);
+};
+
+```
